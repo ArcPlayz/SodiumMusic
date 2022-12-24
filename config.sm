@@ -1,0 +1,9 @@
+{
+    'token': 'BOT TOKEN',
+    'spotify': ('CLIENT ID', 'CLIENT SECRET'),
+    'effects': {
+        'nightcore': ('asetrate = 48000 * 1.25', 1.25),
+        '8d': 'apulsator = hz = 0.125',
+        'vibrato': 'vibrato = f = 8.25:d = 0.9'
+    }
+}
