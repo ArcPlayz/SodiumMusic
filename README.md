@@ -8,17 +8,17 @@
 		<td><h3>Dependencies</h3></td>
 		<td colspan='2'/>
 		<td colspan='4'>pip<br/>You can install these packages using<br/>'pip install -r requirements'</td>
-		<td colspan='2'>On Linux you may also have to install these packages</td>
+		<td colspan='4'>On Linux you may also have to install these packages</td>
 	</tr>
 	<tr>
 		<td>Package</td>
 		<td>Python</td><td>ffmpeg & ffprobe</td>
 		<td>Disnake</td><td>yt-dlp</td><td>Spotipy</td><td>PyNaCl</td>
-		<td>libffi-dev</td><td>openssl / libssl-dev</td>
+		<td>libffi-dev</td><td>libssl-dev</td><td>openssl</td><td>libopus-dev</td>
 	</tr>
 	<tr>
 		<td>Tested on version</td>
-		<td>3.11.0</td><td>4.4.2</td>
+		<td>3.11.1</td><td><a href='https://github.com/BtbN/FFmpeg-Builds/releases/tag/autobuild-2022-12-26-12-35'>this release</a></td>
 		<td>2.7.0</td><td>2022.11.11</td><td>2.22.0</td>
 	</tr>
 </table>

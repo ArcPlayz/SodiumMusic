@@ -373,9 +373,9 @@ async def skip__(
 
 
         if sm.assign[ctx].loop != 'queue':
-            sm.assign[ctx].queue.skip(entries, True)
+            sm.assign[ctx].queue.skip(entries - 1, True)
         else:
-            sm.assign[ctx].queue.extend(sm.assign[ctx].queue.skip(entries))
+            sm.assign[ctx].queue.extend(sm.assign[ctx].queue.skip(entries - 1))
 
         ctx.voice_client.stop()
     else:
